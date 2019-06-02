@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+}
+.header{
+    background-color: #ffffff;
+    border: solid 1px #cccccc;
+    /* height: 50px; */
+    width: 100%;
+}
+header{
+    width: 80%;
+    margin:auto;
+}
+.menu{
+    display: inline-block;
+    margin-left: 67%;
+    
+}
+.name{
+    display: inline-block;
+    background-color: #4aaaa5;
+    color: white;
+}
+.menuItem{
+    display: inline-block;
+}
+.aboutContainer{
+    width: 80%;
+    margin: auto;
+}
+.about{
+    color: #4aaaa5;
+}
+.border{
+    border-bottom: solid 2px #cccccc;
+}
