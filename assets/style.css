@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 .header{
     background-color: #ffffff;
@@ -35,10 +36,66 @@ header{
 .aboutContainer{
     width: 80%;
     margin: auto;
+    background-color: #ffffff;
+    
+    border: solid 1px #cccccc; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.underLine{
+    background-color: #cccccc;
+    height: 2px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+img{
+    float:left;
 }
 .about{
     color: #4aaaa5;
+    padding-top: 21.440;
+    padding-right: 30px;
+    padding-left: 30px;
 }
-.border{
-    border-bottom: solid 2px #cccccc;
+.aboutme1{
+    float:left;
+    font-size: 18px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.aboutme2{
+    overflow: auto;
+    clear: both;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.imageAndDetails{
+    padding: 30px;
+    font-size: 18px;
+    
+}
+footer{
+    overflow: auto;
+    clear: both;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: aliceblue;
+    text-align: center;
+    margin-top:0px;
+    height: 80px;
+    
+}
+.line{
+    background-color: #4aaaa5;
+    height: 8px;
+    
+}
+.copyright{
+    padding-top: 62px;
+    margin: 0%;
+    
 }
