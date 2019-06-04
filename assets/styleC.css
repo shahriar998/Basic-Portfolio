@@ -56,6 +56,26 @@ header{
 img{
     float:left;
 }
+form{
+    color: #cccccc;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+#firstname, #Email{
+    height: 20px;
+    width: 100%;
+}
+textarea{
+    width: 100%;
+    border-color: #cccccc;
+}
+#submit{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 100%;
+    padding: 1.2%;
+}
 .contact{
     color: #4aaaa5;
     padding-top: 21.440;
