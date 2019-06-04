@@ -33,6 +33,46 @@ header{
     padding-right: 10px
     
 }
+
+/* portfolio cards */
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.portfolio-card {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.img-portfolio{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+}
+/* target a child element without giving it a class:  */
+.img-portfolio > img {
+    height: 100%;
+    width: 100%;
+}
+
+.portfoliotext{
+    background-color: #4aaaa5;
+    position: absolute;
+    bottom: 5px;
+    margin: solid 1px black;
+    color: white;
+    width: 101%;
+    height: 50px;
+    text-align: left;
+}
+
 .aboutContainer{
     width: 960px;
     height: 500px;
